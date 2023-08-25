@@ -8,9 +8,6 @@ const getOutOfStockProducts = () => {
             outOfStockProducts.push(stockProducts[index].productName);
         }
     }
-
-    return getOutOfStockProducts;
-};
-
-
+    return outOfStockProducts;
+}
 module.exports = { getOutOfStockProducts };
